@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+p:nth-child(1) {
+    font: 2rem caption;
+    color: rgb(231,76,60)
+}
+p:nth-child(2) {
+    font: 3rem status-bar;
+    color: rgb(203,67,53);
+}
+.card {
+    width: 30%;
+    padding: 3rem;
+    margin: 0 auto;
+    border: 2px solid rgb(196, 43, 26);
+}
+img {
+    width: 20%;
+    border-radius: 0.3rem;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.icons > .material-icons {
+    color: rgb(231,76,60);
+}
+.customerName {
+    color: rgb(169,50,38);
+    font: 1rem status-bar 800;
+}
+button {
+    cursor: pointer;
+    background: rgb(231,76,60);
+    border: 1px solid transparent;
+}
+.arrow {
+    color: rgb(255,255,255);
+}
+.review {
+    color: rgb(192,57,43);
+}
+@media (max-width: 426px) {
+    .card {
+        width: 50%;
+        padding: 2rem;
+    }
+    img {
+        width: 40%;
+    }
+}
+@media (max-width: 321px) {
+    p:nth-child(2) {
+        font-size: 2rem;
+    }
+}
